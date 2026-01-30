@@ -13,12 +13,14 @@ export default function Hero() {
     <section
       className="relative h-screen flex flex-col items-center justify-center text-center"
       style={{
-        backgroundImage: `url('/cover.png')`,
+        backgroundImage: `url('/bg.png')`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
       }}
     >
-      {/* Overlay */}
+      {/* Overlay sombre */}
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Contenu central */}
@@ -84,7 +86,6 @@ export default function Hero() {
             >
               <FaEnvelope />
             </a>
-
             <a
               href="https://github.com/tonprofil"
               target="_blank"
@@ -93,7 +94,6 @@ export default function Hero() {
             >
               <FaGithub />
             </a>
-
             <a
               href="https://wa.me/tonnumero"
               target="_blank"
