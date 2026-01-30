@@ -12,7 +12,7 @@ export default function Header() {
       <div className="flex items-center justify-between w-full px-4 py-3 sm:py-4 max-w-full">
         {/* Logo */}
         <div className="text-lg font-bold text-white cursor-pointer flex-1">
-          MonLogo
+          Uzziah
         </div>
 
         {/* Date & Heure – visible sm+ */}

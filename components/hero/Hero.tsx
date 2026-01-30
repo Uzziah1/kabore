@@ -66,7 +66,7 @@ export default function Hero() {
               alt="Avatar"
               className="w-10 h-10 rounded-full object-cover border-2 border-white"
             />
-            <span className="text-white font-medium">Azaria</span>
+            <span className="text-white font-medium">Tégawendé Azaria KABORE</span>
           </div>
 
           {/* Chatbot (centre & animé) */}
@@ -81,13 +81,13 @@ export default function Hero() {
           {/* Contacts */}
           <div className="flex items-center gap-6 text-lg">
             <a
-              href="mailto:tonemail@example.com"
+              href="mailto:azakabore1@example.com"
               className="text-[#3EB65F] hover:text-white transition"
             >
               <FaEnvelope />
             </a>
             <a
-              href="https://github.com/tonprofil"
+              href="https://github.com/Uzziah1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#3EB65F] hover:text-white transition"
@@ -95,7 +95,7 @@ export default function Hero() {
               <FaGithub />
             </a>
             <a
-              href="https://wa.me/tonnumero"
+              href="https://wa.me/+22664974988"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#3EB65F] hover:text-white transition"
